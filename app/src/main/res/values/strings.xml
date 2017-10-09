@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mis Notas</string>
+    <string name="tv_tittulo">selecciona el curso</string>
+    <string name="btn_frameworks">desarollo web basado en frameworks</string>
+    <string name="btn_multiplatforma">desarrollo multiplataforma</string>
+    <string name="btn_auditoria">auditoria informatica</string>
+    <string name="btn_sistemas">contruccion de sistemas de informacion</string>
+    <string name="btn_distribuidos">sistemas distribuidos</string>
+    <string name="nota_f1">nota de primer corte</string>
+    <string name="nota_f2">nota de segundo corte</string>
+    <string name="nota_f3">nota de tercer corte</string>
+    <string name="tv_nota_def">tu nota definitiva es:</string>
+    <string name="btn_regresar">regresar</string>
+    <string name="btn_acerca">acerca de</string>
+    <string name="texto_invalido">digite un valor valido</string>
+    <string name="texto_vacio">existen campos que estan vacios</string>
+    <string name="textView2">presentado Por Juan Burgos</string>
+</resources>

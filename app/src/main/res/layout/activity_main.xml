@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context="com.example.juanpablo.myapplication.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.43"
+
+        android:text="@string/tv_tittulo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Frameworks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:elevation="0dp"
+        android:onClick="mostrarF"
+        android:text="@string/btn_frameworks"
+        android:textColor="@color/color" />
+
+    <Button
+        android:id="@+id/btn_multiplataforma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:onClick="mostrarM"
+        android:text="@string/btn_multiplatforma"
+        android:textColor="@color/color" />
+
+    <Button
+        android:id="@+id/btn_auditoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="mostrarA"
+        android:text="@string/btn_auditoria"
+        android:textColor="@color/color" />
+
+    <Button
+        android:id="@+id/btn_sistemas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:onClick="mostrarSI"
+        android:text="@string/btn_sistemas"
+        android:textColor="@color/color" />
+
+    <Button
+        android:id="@+id/btn_distribuidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:onClick="mostrarD"
+        android:text="@string/btn_distribuidos"
+        android:textColor="@color/color" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="173dp"
+        app:srcCompat="@drawable/imgen" />
+
+</LinearLayout>

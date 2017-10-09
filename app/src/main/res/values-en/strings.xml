@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Califications</string>
+    <string name="btn_acerca">about</string>
+    <string name="btn_auditoria">computer audit</string>
+    <string name="btn_distribuidos">Distributed systems</string>
+    <string name="btn_frameworks">development based on frameworks</string>
+    <string name="btn_multiplatforma">multiplatform development</string>
+    <string name="btn_regresar">back</string>
+    <string name="btn_sistemas">construction of information systems</string>
+    <string name="nota_f1">first qualification</string>
+    <string name="nota_f2">second qualification</string>
+    <string name="nota_f3">third qualification</string>
+    <string name="tv_nota_def">final score</string>
+    <string name="tv_tittulo">select course</string>
+    <string name="texto_invalido">invalid value</string>
+    <string name="texto_vacio">empty fields</string>
+    <string name="textView2">By Juan Burgos</string>
+</resources>
